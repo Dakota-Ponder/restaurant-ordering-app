@@ -7,6 +7,13 @@
 html {
   font-size: 62.5%;
 }
+header {
+    background-image: url('/header_img.jpg');
+    background-size: cover; /* Ensures the image covers the entire header */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    height: 300px; /* Adjust this value to your desired header height */
+}
 
 
 body,
@@ -28,9 +35,9 @@ body {
   position: relative;
 }
 
-header > img {
+/* header > img {
   width: 100%;
-}
+} */
 
 .itemOfRestaurant {
   justify-content: space-between;
