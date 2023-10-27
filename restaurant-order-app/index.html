@@ -1,15 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Restaurant Ordering App</title>
-    <link rel="stylesheet" href="/index.css" />
+    <link rel="stylesheet" href="index.css" />
   </head>
+
   <body>
     <!-- First Interface -->
     <header>
-      <img src="/header_img.png" alt="Restaurant Logo" />
+      <img id="header-img" src="header_img.png" alt="logo" />
     </header>
     <main>
       <div class="items"></div>
@@ -27,11 +32,10 @@
       </button>
     </footer>
     <div class="cart-section">
-        <h2>My Cart</h2>
-        <div class="cart-items"></div>
-        <div class="cart-total">Total: $0</div>
+      <h2>My Cart</h2>
+      <div class="cart-items"></div>
+      <div class="cart-total">Total: $0</div>
     </div>
-
     <!-- Second Interface -->
     <div class="card-details-container">
       <h4>Enter Card Details</h4>
@@ -56,12 +60,10 @@
         <button id="pay-button" data-pay-btn="Payment Complete">Pay</button>
       </form>
     </div>
-
     <!-- Third Interface -->
     <div class="order-placed">
       <p id="order-placed-message"></p>
     </div>
-
-    <script src="/index.js" type="module"></script>
+    <script src="index.js" type="module"></script>
   </body>
 </html>
